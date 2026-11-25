@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Fabiene Huebra | Toxina Botulínica, Harmonização Facial e Secagem de Vasos em Mauá, SP</title>
+    <meta name="description" content="Clínica de Estética Avançada em Mauá, SP. Dra. Fabiene Huebra (Farmacêutica Esteta — CRF-SP 108.624). Toxina Botulínica, Harmonização Facial, Secagem de Vasos (PEIM), Bioestimuladores e Lipo de Papada.">
+
+    <!-- Fontes Editoriais (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Ícones Gratuitos (FontAwesome 6.5.1) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- ==========================================================
+         META PIXEL & GOOGLE ADS TAG (Descomente ao subir o setup)
+         ========================================================== -->
+    <!--
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 'SEU_PIXEL_ID');
+      fbq('track', 'PageView');
+    </script>
+    -->
+
+    <style>
+        :root {
+            --bg-cream: #F8F4F0;
+            --bg-sand-light: #F0E6DC;
+            --card-white: #FFFFFF;
+            --gold-champagne: #C49A6C;
+            --espresso-brown: #3E2723;
+            --espresso-hover: #2A1916;
+            --warm-taupe: #735D52;
+            --bronze-accent: #8D6346;
+            --bronze-dark: #6E4B33;
+            --text-dark: #2C201C;
+            --text-muted: #6C5D55;
+            --border-soft: rgba(196, 154, 108, 0.35);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--bg-cream);
+            color: var(--text-dark);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.65;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, .serif { font-family: 'Cormorant Garamond', serif; color: var(--espresso-brown); font-weight: 600; }
+
+        .container { width: 100%; max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+        /* Navegação */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(248, 244, 240, 0.94);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-soft);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 78px;
+        }
+
+        .brand { text-decoration: none; display: flex; flex-direction: column; }
+        .brand-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.55rem;
+            font-weight: 600;
+            color: var(--espresso-brown);
+            line-height: 1.05;
+        }
+        .brand-sub {
+            font-size: 0.65rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--bronze-accent);
+        }
+
+        nav { display: flex; align-items: center; gap: 26px; }
+        nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-size: 0.82rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: color 0.2s;
+        }
+        nav a:hover { color: var(--gold-champagne); }
+
+        .nav-cta {
+            background: var(--espresso-brown);
+            color: #FFF !important;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+        }
+        .nav-cta:hover { background: var(--espresso-hover); }
+
+        /* Botões Globais */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: all 0.28s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--espresso-brown);
+            color: #FFF;
+            box-shadow: 0 10px 24px rgba(62, 39, 35, 0.18);
+        }
+        .btn-primary:hover { background: var(--espresso-hover); transform: translateY(-2px); }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--espresso-brown);
+            border: 1px solid var(--espresso-brown);
+        }
+        .btn-outline:hover { background: var(--espresso-brown); color: #FFF; }
+
+        .btn-light {
+            background: #F8F4F0;
+            color: var(--espresso-brown);
+        }
+        .btn-light:hover { background: #FFF; transform: translateY(-2px); }
+
+        /* 1ª Dobra: Hero */
+        .hero {
+            padding: 64px 0 84px;
+            background: radial-gradient(circle at top right, #F0E6DC 0%, #F8F4F0 65%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 56px;
+            align-items: center;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.74rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2.2px;
+            color: var(--bronze-accent);
+            margin-bottom: 18px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.7rem, 5vw, 4.3rem);
+            line-height: 1.06;
+            margin-bottom: 22px;
+        }
+        .hero h1 em { font-style: italic; color: var(--gold-champagne); font-weight: 500; }
+
+        .hero p {
+            font-size: 1.02rem;
+            color: var(--text-muted);
+            max-width: 520px;
+            margin-bottom: 32px;
+        }
+
+        .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+
+        .hero-photo-frame {
+            position: relative;
+            border-radius: 220px 220px 24px 24px;
+            overflow: hidden;
+            aspect-ratio: 3 / 4;
+            max-width: 430px;
+            margin: 0 auto;
+            border: 6px solid #FFF;
+            box-shadow: 0 24px 50px rgba(62, 39, 35, 0.14);
+            background: var(--bg-sand-light);
+        }
+
+        .hero-photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 15%;
+        }
+
+        /* 2ª Dobra: Vídeo Full-Bleed sem moldura em Looping Automático */
+        .video-fullbleed {
+            position: relative;
+            width: 100%;
+            min-height: 75vh;
+            display: flex;
+            align-items: flex-end;
+            overflow: hidden;
+            background: #221512;
+        }
+
+        .video-fullbleed video {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(44, 32, 28, 0.15) 0%, rgba(44, 32, 28, 0.72) 100%);
+        }
+
+        .video-content {
+            position: relative;
+            z-index: 2;
+            padding: 64px 0;
+            color: #FFF;
+            max-width: 640px;
+        }
+
+        .video-content .eyebrow { color: var(--gold-champagne); margin-bottom: 12px; }
+        .video-content h2 {
+            color: #FFF;
+            font-size: clamp(2.2rem, 4vw, 3.3rem);
+            line-height: 1.1;
+            margin-bottom: 14px;
+        }
+        .video-content p {
+            color: rgba(248, 244, 240, 0.88);
+            font-size: 0.96rem;
+            margin-bottom: 24px;
+        }
+
+        /* Seções Padrão */
+        section.pad { padding: 92px 0; }
+        .section-header { text-align: center; max-width: 720px; margin: 0 auto 52px; }
+        .section-header h2 { font-size: clamp(2.3rem, 4vw, 3.4rem); line-height: 1.1; margin-bottom: 14px; }
+        .section-header p { color: var(--text-muted); font-size: 0.98rem; }
+
+        /* Carrossel de Procedimentos */
+        .carousel-shell {
+            background: var(--card-white);
+            border: 1px solid var(--border-soft);
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 18px 40px rgba(62, 39, 35, 0.06);
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+
+        .slide-media {
+            height: 460px;
+            background: var(--bg-sand-light);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slide-media img { width: 100%; height: 100%; object-fit: cover; }
+
+        .slide-body { padding: 48px; }
+        .slide-tag {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--bronze-accent);
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .slide-body h3 { font-size: 2.25rem; line-height: 1.15; margin-bottom: 16px; }
+        .slide-body p { color: var(--text-muted); margin-bottom: 28px; font-size: 0.95rem; }
+
+        .carousel-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 28px;
+            background: var(--bg-sand-light);
+            border-top: 1px solid var(--border-soft);
+        }
+
+        .carousel-dots { display: flex; gap: 10px; }
+        .dot-btn {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: none;
+            background: rgba(62, 39, 35, 0.25);
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+        .dot-btn.active { width: 28px; border-radius: 10px; background: var(--espresso-brown); }
+
+        .carousel-arrows { display: flex; gap: 10px; }
+        .arrow-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid var(--espresso-brown);
+            background: transparent;
+            color: var(--espresso-brown);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .arrow-btn:hover { background: var(--espresso-brown); color: #FFF; }
+
+        .ethical-note {
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 18px;
+        }
+
+        /* Banner Destaque Avaliação */
+        .highlight-banner {
+            margin-top: 40px;
+            background: linear-gradient(135deg, var(--bronze-accent) 0%, var(--espresso-brown) 100%);
+            color: #FFF;
+            border-radius: 22px;
+            padding: 40px 44px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 28px;
+            flex-wrap: wrap;
+        }
+        .highlight-banner h3 { color: #FFF; font-size: 2.1rem; margin-bottom: 6px; }
+        .highlight-banner p { color: rgba(255, 255, 255, 0.88); max-width: 580px; font-size: 0.94rem; }
+
+        /* Seção Sobre */
+        .about-sec { background: var(--bg-sand-light); }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 0.85fr 1.15fr;
+            gap: 56px;
+            align-items: center;
+        }
+
+        .about-photo {
+            border-radius: 24px;
+            overflow: hidden;
+            aspect-ratio: 3 / 4;
+            border: 6px solid #FFF;
+            box-shadow: 0 20px 44px rgba(62, 39, 35, 0.12);
+            background: #E6D8CA;
+        }
+        .about-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+
+        .about-content h2 { font-size: clamp(2.3rem, 3.8vw, 3.2rem); margin-bottom: 18px; line-height: 1.1; }
+        .about-content p { color: var(--text-muted); margin-bottom: 18px; font-size: 0.96rem; }
+
+        .credentials {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin: 26px 0 30px;
+        }
+        .cred-item {
+            background: var(--card-white);
+            padding: 14px 16px;
+            border-radius: 14px;
+            border: 1px solid var(--border-soft);
+            font-size: 0.83rem;
+            color: var(--espresso-brown);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+        }
+        .cred-item i { color: var(--bronze-accent); font-size: 1rem; }
+
+        /* Seção Clínica (Carrossel de Fotos) */
+        .clinic-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .clinic-carousel {
+            position: relative;
+            border-radius: 22px;
+            overflow: hidden;
+            aspect-ratio: 4 / 3;
+            background: var(--bg-sand-light);
+            box-shadow: 0 18px 36px rgba(62, 39, 35, 0.1);
+        }
+        .clinic-track { display: flex; height: 100%; transition: transform 0.5s ease; }
+        .clinic-slide { min-width: 100%; height: 100%; }
+        .clinic-slide img { width: 100%; height: 100%; object-fit: cover; }
+
+        .clinic-nav {
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            display: flex;
+            gap: 8px;
+        }
+        .clinic-nav button {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            border: none;
+            background: rgba(255, 255, 255, 0.92);
+            color: var(--espresso-brown);
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .clinic-features { list-style: none; display: grid; gap: 16px; margin: 24px 0 30px; }
+        .clinic-features li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 0.94rem;
+            color: var(--text-muted);
+        }
+        .clinic-features i { color: var(--bronze-accent); margin-top: 4px; }
+
+        /* FAQ + Vídeo */
+        .faq-sec { background: var(--bg-sand-light); }
+        .faq-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 44px;
+            align-items: start;
+        }
+
+        .faq-item {
+            background: var(--card-white);
+            border: 1px solid var(--border-soft);
+            border-radius: 14px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+        .faq-q {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 20px 24px;
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.94rem;
+            font-weight: 600;
+            color: var(--espresso-brown);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .faq-a {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease, padding 0.35s ease;
+            padding: 0 24px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        .faq-item.open .faq-a { max-height: 280px; padding: 0 24px 20px; }
+        .faq-item.open .faq-q i { transform: rotate(180deg); }
+
+        .faq-video-card {
+            background: var(--card-white);
+            border: 1px solid var(--border-soft);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .faq-video-box {
+            border-radius: 14px;
+            overflow: hidden;
+            aspect-ratio: 9 / 16;
+            max-height: 400px;
+            background: #221512;
+            margin-bottom: 14px;
+        }
+        .faq-video-box video { width: 100%; height: 100%; object-fit: cover; }
+        .faq-video-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--espresso-brown); }
+        .faq-video-card p { font-size: 0.82rem; color: var(--text-muted); margin-top: 4px; }
+
+        /* Rodapé */
+        footer {
+            background: var(--espresso-brown);
+            color: rgba(248, 244, 240, 0.84);
+            padding: 56px 0 32px;
+            text-align: center;
+        }
+        .footer-links { display: flex; justify-content: center; gap: 22px; margin: 20px 0 28px; flex-wrap: wrap; }
+        .footer-links a { color: #FFF; text-decoration: none; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px; }
+        .footer-legal {
+            border-top: 1px solid rgba(196, 154, 108, 0.25);
+            padding-top: 22px;
+            font-size: 0.74rem;
+            opacity: 0.82;
+            line-height: 1.6;
+        }
+
+        /* Responsivo */
+        @media (max-width: 920px) {
+            nav { display: none; }
+            .hero-grid, .carousel-slide, .about-grid, .clinic-grid, .faq-grid { grid-template-columns: 1fr; }
+            .slide-media { height: 320px; }
+            .slide-body { padding: 30px 24px; }
+            .credentials { grid-template-columns: 1fr; }
+            .video-fullbleed { min-height: 62vh; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-inner">
+            <a href="#" class="brand">
+                <span class="brand-name">Dra. Fabiene Huebra</span>
+                <span class="brand-sub">Estética Avançada</span>
+            </a>
+            <nav>
+                <a href="#procedimentos">Procedimentos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#clinica">Clínica</a>
+                <a href="#faq">Dúvidas</a>
+                <a href="https://www.instagram.com/drafabihuebra/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Fabiene%20Huebra."
+                   target="_blank" rel="noopener noreferrer" class="nav-cta"
+                   onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">
+                    Agendar Avaliação
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1ª DOBRA: HERO -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div>
+                <span class="eyebrow"><i class="fa-solid fa-wand-magic-sparkles"></i> Mauá • São Paulo</span>
+                <h1>Estética avançada para transformar sua <em>autoestima</em> com naturalidade.</h1>
+                <p>Protocolos personalizados de Toxina Botulínica, Harmonização Facial, Bioestimuladores e Secagem de Vasos em Mauá — unindo rigor farmacêutico, segurança e resultados elegantes.</p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20personalizada%20com%20a%20Dra.%20Fabiene%20Huebra."
+                       target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+                       onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">
+                        <i class="fa-brands fa-whatsapp"></i> Agendar Avaliação pelo WhatsApp
+                    </a>
+                    <a href="#procedimentos" class="btn btn-outline">Conhecer Procedimentos</a>
+                </div>
+            </div>
+            <div class="hero-photo-frame">
+                <img src="dra-fabi.PNG" alt="Dra. Fabiene Huebra - Farmacêutica Esteta em Mauá, SP">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2ª DOBRA: VÍDEO FULL-BLEED EM LOOPING AUTOMÁTICO -->
+    <section class="video-fullbleed">
+        <!-- Coloque o vídeo na mesma pasta com o nome: video-atendimento.mp4 -->
+        <video autoplay loop muted playsinline poster="clinica-fabi.jpeg">
+            <source src="atendimento-fabi.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeo.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="container">
+            <div class="video-content">
+                <span class="eyebrow">Cuidado Individualizado em Mauá</span>
+                <h2>Cada atendimento planejado para valorizar o que você tem de melhor.</h2>
+                <p>Ambiente acolhedor, atendimento com hora marcada e técnicas atualizadas para você se sentir segura em cada etapa do seu cuidado.</p>
+                <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20com%20a%20Dra.%20Fabiene%20Huebra."
+                   target="_blank" rel="noopener noreferrer" class="btn btn-light"
+                   onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">
+                    <i class="fa-brands fa-whatsapp"></i> Agendar Meu Horário
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3ª DOBRA: CARROSSEL DE PROCEDIMENTOS -->
+    <section id="procedimentos" class="pad">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Protocolos Personalizados</span>
+                <h2>Procedimentos pensados para a sua saúde estética</h2>
+                <p>Todo tratamento começa com uma avaliação criteriosa para indicar apenas o que realmente traz harmonia, leveza e resultado real para você.</p>
+            </div>
+
+            <div class="carousel-shell">
+                <div class="carousel-track" id="procTrack">
+                    <!-- Slide 1: Toxina Botulínica -->
+                    <div class="carousel-slide">
+                        <div class="slide-media"><img src="botox.jpeg" alt="Toxina Botulínica em Mauá"></div>
+                        <div class="slide-body">
+                            <span class="slide-tag">01 / Rejuvenescimento</span>
+                            <h3>Toxina Botulínica (Botox)</h3>
+                            <p>Suavização e prevenção das linhas de expressão na testa, glabela e região dos olhos, devolvendo um aspecto descansado e natural sem travar suas expressões.</p>
+                            <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Tenho%20interesse%20em%20Toxina%20Botul%C3%ADnica%20(Botox)%20com%20a%20Dra.%20Fabiene." target="_blank" class="btn btn-primary" onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">Agendar Avaliação</a>
+                        </div>
+                    </div>
+                    <!-- Slide 2: Harmonização Facial -->
+                    <div class="carousel-slide">
+                        <div class="slide-media"><img src="harmonizacao.jpeg" alt="Harmonização Facial e Ácido Hialurônico em Mauá"></div>
+                        <div class="slide-body">
+                            <span class="slide-tag">02 / Equilíbrio Facial</span>
+                            <h3>Harmonização Facial &amp; Ácido Hialurônico</h3>
+                            <p>Planejamento facial individualizado para devolver sustentação, contorno e hidratação labial ou facial, respeitando a sua anatomia e identidade.</p>
+                            <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Tenho%20interesse%20em%20Harmoniza%C3%A7%C3%A3o%20Facial%20com%20a%20Dra.%20Fabiene." target="_blank" class="btn btn-primary" onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">Agendar Avaliação</a>
+                        </div>
+                    </div>
+                    <!-- Slide 3: Secagem de Vasos (PEIM) -->
+                    <div class="carousel-slide">
+                        <div class="slide-media"><img src="proc-peim.webp" alt="Secagem de Vasos PEIM em Mauá"></div>
+                        <div class="slide-body">
+                            <span class="slide-tag">03 / Estética Vascular</span>
+                            <h3>Secagem de Vasos (PEIM)</h3>
+                            <p>Procedimento Estético Injetável para Microvasos, minimamente invasivo e seguro, indicado para suavizar vasinhos nas pernas e devolver a confiança ao usar o que você ama.</p>
+                            <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Tenho%20interesse%20em%20Secagem%20de%20Vasos%20(PEIM)." target="_blank" class="btn btn-primary" onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">Agendar Avaliação</a>
+                        </div>
+                    </div>
+                    <!-- Slide 4: Bioestimuladores & Lipo de Papada -->
+                    <div class="carousel-slide">
+                        <div class="slide-media"><img src="proc-bioestimulador.webp" alt="Bioestimuladores de Colágeno e Lipo Enzimática de Papada"></div>
+                        <div class="slide-body">
+                            <span class="slide-tag">04 / Firmeza &amp; Contorno</span>
+                            <h3>Bioestimuladores &amp; Lipo Enzimática de Papada</h3>
+                            <p>Combate à flacidez com estímulo progressivo de colágeno e definição do contorno mandibular sem cirurgia, promovendo pele mais firme e viçosa.</p>
+                            <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Tenho%20interesse%20em%20Bioestimuladores%20de%20Col%C3%A1geno%20ou%20Lipo%20de%20Papada." target="_blank" class="btn btn-primary" onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">Agendar Avaliação</a>
+                        </div>
+                    </div>
+                    <!-- Slide 5: Capilar & Cuidados com a Pele -->
+                    <div class="carousel-slide">
+                        <div class="slide-media"><img src="proc-pele-capilar.webp" alt="Microagulhamento Capilar, Limpeza de Pele e Drenagem Linfática"></div>
+                        <div class="slide-body">
+                            <span class="slide-tag">05 / Pele, Capilar &amp; Bem-Estar</span>
+                            <h3>Microagulhamento Capilar &amp; Cuidados de Pele</h3>
+                            <p>Protocolos complementares como Microagulhamento Capilar, Ampola da Beleza, Limpeza de Pele Profunda e Drenagem Linfática para manter sua pele e saúde estética em dia.</p>
+                            <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20Microagulhamento%20Capilar%20e%20protocolos%20de%20pele." target="_blank" class="btn btn-primary" onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">Agendar Avaliação</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <div class="carousel-dots" id="procDots"></div>
+                    <div class="carousel-arrows">
+                        <button class="arrow-btn" onclick="moveProc(-1)" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="arrow-btn" onclick="moveProc(1)" aria-label="Próximo"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <p class="ethical-note">Cada organismo possui características anatômicas e fisiológicas únicas. Os resultados variam de paciente para paciente e exigem avaliação presencial prévia.</p>
+
+            <!-- Banner Destaque Avaliação -->
+            <div class="highlight-banner">
+                <div>
+                    <span class="eyebrow" style="color: #F0E6DC; margin-bottom: 8px;">Plano Individualizado</span>
+                    <h3>Não sabe por onde começar?</h3>
+                    <p>Na consulta de avaliação, analisamos sua pele, suas prioridades e montamos juntas um cronograma seguro, realista e personalizado para o seu objetivo.</p>
+                </div>
+                <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20montar%20meu%20plano%20de%20tratamento%20com%20a%20Dra.%20Fabiene."
+                   target="_blank" rel="noopener noreferrer" class="btn btn-light"
+                   onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">
+                    <i class="fa-brands fa-whatsapp"></i> Quero Minha Avaliação
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4ª DOBRA: SOBRE A DRA. FABIENE -->
+    <section id="sobre" class="pad about-sec">
+        <div class="container about-grid">
+            <div class="about-photo">
+                <img src="dra-fabi.PNG" alt="Dra. Fabiene Huebra - Farmacêutica Esteta">
+            </div>
+            <div class="about-content">
+                <span class="eyebrow">Sobre a Especialista</span>
+                <h2>Dra. Fabiene Huebra</h2>
+                <p>Farmacêutica Esteta dedicada à saúde estética avançada em Mauá, acredito que cuidar da beleza é cuidar da autoestima e do bem-estar com responsabilidade, técnica e escuta verdadeira.</p>
+                <p>Meu trabalho une o rigor científico da Farmácia Estética ao olhar delicado para resultados naturais — utilizando ativos de alta procedência e protocolos personalizados para cada paciente.</p>
+
+                <div class="credentials">
+                    <div class="cred-item"><i class="fa-solid fa-award"></i> Farmacêutica Esteta Habilitada</div>
+                    <div class="cred-item"><i class="fa-solid fa-shield-heart"></i> Rigor em Biossegurança &amp; Ativos</div>
+                    <div class="cred-item"><i class="fa-solid fa-wand-magic-sparkles"></i> Especialista em Harmonização &amp; PEIM</div>
+                    <div class="cred-item"><i class="fa-solid fa-user-check"></i> Atendimento Humanizado em Mauá</div>
+                </div>
+
+                <a href="https://wa.me/5511991633913?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Fabiene%20Huebra."
+                   target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+                   onclick="if(typeof fbq !== 'undefined'){ fbq('track', 'Contact'); }">
+                    Agendar Minha Avaliação
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5ª DOBRA: A CLÍNICA EM MAUÁ (CARROSSEL DE FOTOS) -->
+    <section id="clinica" class="pad">
+        <div class="container clinic-grid">
+            <div>
+                <span class="eyebrow">Atendimento com Hora Marcada • Mauá, SP</span>
+                <h2>Um espaço acolhedor pensado para o seu bem-estar</h2>
+                <p style="color: var(--text-muted); margin-top: 12px;">Nosso espaço em Mauá foi preparado para oferecer privacidade, conforto e tranquilidade durante todo o seu atendimento.</p>
+                <ul class="clinic-features">
+                    <li><i class="fa-solid fa-calendar-check"></i> <span><strong>Hora marcada e sem pressa:</strong> atendimento exclusivo focado 100% em você.</span></li>
+                    <li><i class="fa-solid fa-hand-holding-medical"></i> <span><strong>Segurança farmacêutica:</strong> produtos regulamentados pela ANVISA e protocolos seguros.</span></li>
+                    <li><i class="fa-solid fa-heart"></i> <span><strong>Acompanhamento próximo:</strong> suporte pós-procedimento direto para tirar qualquer dúvida.</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span><strong>Localização:</strong> Mauá – SP <em>(confirme o endereço oficial único antes de publicar)</em>.</span></li>
+                </ul>
+                <a href="https://www.google.com/maps/search/?api=1&query=Dra+Fabiene+Huebra+Maua+SP"
+                   target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="fa-solid fa-map-location-dot"></i> Abrir no Google Maps
+                </a>
+            </div>
+
+            <div class="clinic-carousel">
+                <div class="clinic-track" id="clinicTrack">
+                    <div class="clinic-slide"><img src="clinica-fabi.jpeg" alt="Clínica Dra. Fabiene Huebra em Mauá 1"></div>
+                    <div class="clinic-slide"><img src="clinica-2.webp" alt="Clínica Dra. Fabiene Huebra em Mauá 2"></div>
+                    <div class="clinic-slide"><img src="clinica-3.webp" alt="Clínica Dra. Fabiene Huebra em Mauá 3"></div>
+                </div>
+                <div class="clinic-nav">
+                    <button onclick="moveClinic(-1)" aria-label="Foto anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button onclick="moveClinic(1)" aria-label="Próxima foto"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6ª DOBRA: FAQ + VÍDEO -->
+    <section id="faq" class="pad faq-sec">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Dúvidas Frequentes</span>
+                <h2>Transparência antes do seu atendimento</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div>
+                    <div class="faq-item open">
+                        <button class="faq-q">Qual a diferença entre Toxina Botulínica e Preenchimento? <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="faq-a">A toxina botulínica (Botox) relaxa temporariamente os músculos responsáveis pelas rugas dinâmicas de expressão. Já o preenchimento com ácido hialurônico repõe volume, melhora contornos e promove hidratação profunda.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">A Secagem de Vasos (PEIM) dói ou exige repouso? <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="faq-a">O procedimento é minimamente invasivo e bem tolerado pela maioria das pacientes. Não exige afastamento das atividades cotidianas — apenas alguns cuidados simples após a sessão, orientados na consulta.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">Os procedimentos deixam o rosto artificial? <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="faq-a">Não. Nosso foco é sempre a naturalidade e o respeito aos seus traços. Planejamos cada aplicação em doses equilibradas para que você se sinta mais descansada e confiante, sem perder sua identidade.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">Como agendo minha avaliação em Mauá? <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="faq-a">Basta clicar em qualquer botão de WhatsApp desta página. Nossa equipe verifica o melhor horário disponível para você e já te envia todas as orientações.</div>
+                    </div>
+                </div>
+
+                <div class="faq-video-card">
+                    <div class="faq-video-box">
+                        <video controls playsinline poster="dra-fabi.PNG">
+                            <source src="video-fabi.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h4>A Dra. Fabiene explica</h4>
+                    <p>Assista ao vídeo rápido tirando as principais dúvidas sobre os procedimentos e a avaliação.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container">
+            <h2 class="serif" style="color: #FFF; font-size: 2.2rem;">Dra. Fabiene Huebra</h2>
+            <p style="font-size: 0.82rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold-champagne);">Farmacêutica Esteta • CRF-SP 108.624 • Mauá, SP</p>
+
+            <div class="footer-links">
+                <a href="https://www.instagram.com/drafabihuebra/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> @drafabihuebra</a>
+                <a href="https://wa.me/5511991633913" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                <a href="links.html"><i class="fa-solid fa-link"></i> Página de Links</a>
+            </div>
+
+            <div class="footer-legal">
+                <p>Clínica de Estética Avançada Dra. Fabiene Huebra — Mauá, São Paulo</p>
+                <p>Publicidade em conformidade com o Código de Ética Farmacêutica (Conselho Federal de Farmácia — CFF).</p>
+                <p style="margin-top: 10px; opacity: 0.7;">Desenvolvido por FSP Health Marketing | Eleven FaMa</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Carrossel de Procedimentos
+        let procIndex = 0;
+        const procTrack = document.getElementById('procTrack');
+        const procSlides = document.querySelectorAll('#procTrack .carousel-slide');
+        const procDots = document.getElementById('procDots');
+
+        procSlides.forEach((_, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'dot-btn' + (i === 0 ? ' active' : '');
+            btn.onclick = () => goProc(i);
+            procDots.appendChild(btn);
+        });
+
+        function goProc(i) {
+            procIndex = (i + procSlides.length) % procSlides.length;
+            procTrack.style.transform = `translateX(-${procIndex * 100}%)`;
+            document.querySelectorAll('#procDots .dot-btn').forEach((d, idx) => d.classList.toggle('active', idx === procIndex));
+        }
+
+        function moveProc(step) { goProc(procIndex + step); }
+
+        // Carrossel da Clínica
+        let clinicIndex = 0;
+        const clinicTrack = document.getElementById('clinicTrack');
+        const clinicTotal = document.querySelectorAll('#clinicTrack .clinic-slide').length;
+
+        function moveClinic(step) {
+            clinicIndex = (clinicIndex + step + clinicTotal) % clinicTotal;
+            clinicTrack.style.transform = `translateX(-${clinicIndex * 100}%)`;
+        }
+
+        // FAQ Acordeão
+        document.querySelectorAll('.faq-q').forEach(btn => {
+            btn.addEventListener('click', () => {
+                btn.parentElement.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
